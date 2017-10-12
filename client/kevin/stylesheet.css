@@ -1,0 +1,39 @@
+body {
+
+}
+
+.main-page {
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "nav"
+    "main";
+  height: 100vh;
+  margin: -10px;
+}
+
+.nav-bar {
+  grid-area: nav;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 2fr) 3fr repeat(3, 2fr);
+  justify-items: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.nav-title {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.nav-item {
+
+}
+
+
+
+.main-content {
+  grid-area: main;
+}
