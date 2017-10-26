@@ -1,0 +1,11 @@
+.main-description-container {
+  width: 75%;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.main-description-container>p {
+  color: white;
+  font-weight: 300;
+}

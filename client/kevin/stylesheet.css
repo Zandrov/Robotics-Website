@@ -65,4 +65,10 @@
 
 .main-content {
   grid-area: main;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
 }
